@@ -1,17 +1,26 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Supervisión, integración productiva y gobernanza de la IA generativa',
+    Description:
+      'Este componente formativo capacita al aprendiz en la validación de contenidos generados por Inteligencia Artificial Generativa (IAG), mediante el diagnóstico de errores, identificación de sesgos y aplicación de estrategias de optimización. Además, fortalece competencias relacionadas con documentación técnica, gobernanza de datos, trazabilidad y mejora continua, promoviendo un uso responsable, seguro y eficiente de la IA en entornos organizacionales y productivos.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-4.png',
       },
     ],
   },
@@ -31,27 +40,123 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Evaluación de calidad y validación técnica de resultados',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Criterios técnicos de evaluación: pertinencia, coherencia y utilidad',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Validación de la fundamentación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Diagnóstico de errores',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Comparativa de razonamiento y el patrón de reflexión',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Verificación de citas y fuentes en tiempo real',
+            hash: 't_1_5',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Diagnóstico de errores y mitigación de riesgos algorítmicos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Tipología de errores críticos: alucinaciones y <em>misgrounding</em>',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Detección de sesgos y ética en la respuesta',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Refinamiento iterativo (<em>Follow-up Prompts</em>)',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Protocolos de silencio estratégico y abstención',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Uso de extensiones IA en aplicaciones y flujos de trabajo automatizados',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo:
+              'Copilot en la suite de productividad: del texto a los resultados',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Estrategias híbridas: combinando ChatGPT, Claude y Copilot',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Inteligencia artificial y la automatización de procesos (Power Automate)',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Documentación técnica, gobernanza y mejora continua',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo:
+              'Registro estructurado de procesos de configuración y operación',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Gobernanza, privacidad y soberanía de datos (Ley 1581 y EDP)',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo:
+              'Elaboración de guías de buenas prácticas y manuales de uso',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Auditoría <em>post-hoc</em> y supervisión humana experta',
+            hash: 't_4_4',
+          },
+        ],
       },
     ],
     subMenu: [

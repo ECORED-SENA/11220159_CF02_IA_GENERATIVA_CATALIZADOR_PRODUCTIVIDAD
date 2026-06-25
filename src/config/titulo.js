@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Supervisión, integración productiva y gobernanza de la IA generativa'
