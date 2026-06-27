@@ -36,7 +36,7 @@
           p.mb-0 Esta funcionalidad favorece procesos de mejora continua, ya que permite que el profesional concentre sus esfuerzos en #[b la validación, edición y toma de decisiones], en lugar de iniciar desde una hoja en blanco. Adicionalmente, es posible generar contenidos directamente dentro de la aplicación mediante #[i prompts] y complementos especializados de IA. En el siguiente video, se presentan diferentes aplicaciones de agentes IA dentro de Microsoft Word para fortalecer procesos de redacción, automatización y transformación documental.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/zR_IYdt264s?si=M5pYQxZD0nLvoyXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption #[b Video]. Agentes IA dentro de la aplicación Word
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img6.svg')
@@ -73,7 +73,7 @@
       p.mb-5 A continuación, se presenta un recurso audiovisual relacionado con la ampliación de funcionalidades mediante complementos y herramientas de Inteligencia Artificial:
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://youtu.be/08iYa_wqsUM?si=j1tV4VMyk3L89fLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption #[b Video]. Complementos y la IA en PowerPoint
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img6.svg')
@@ -122,7 +122,7 @@
           p.mb-0 El flujo de trabajo se optimiza mediante el patrón #[i Output Automater], donde el resultado generado por la IA no se limita a texto descriptivo, sino que produce #[b acciones estructuradas] capaces de #[b organizar, clasificar y jerarquizar información] dentro de los archivos. En el siguiente video, se presenta el uso de agentes IA aplicados al entorno de Google Sheets para automatizar procesos y fortalecer el análisis de datos.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/H5LjwQJnPE0?si=PEmNZTguBcko2X36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption #[b Video]. Uso de agentes IA en Google Sheets
       .row.justify-content-center.align-items-center.mb-0
         .col-xl.mb-4.mb-lg-0
@@ -520,7 +520,7 @@
       p.mb-5 Estas capacidades convierten a la automatización inteligente en un componente clave de los procesos de transformación digital empresarial. A continuación, se presenta un recurso audiovisual introductorio relacionado con el uso de Power Automate y la integración de componentes de IA en procesos automatizados.
       figure(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/BUS-hpQHAVQ?si=QL4QTHqp6Qlk4Lk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption #[b Video]. Orquestación de procesos con componentes IA mediante Power Automate
 
 </template>
