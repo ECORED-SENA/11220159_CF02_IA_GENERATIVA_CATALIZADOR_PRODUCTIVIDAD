@@ -201,14 +201,115 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alucinación extrínseca',
+      significado:
+        'Comportamiento anómalo donde el modelo genera información que parece plausible, pero es completamente inventada, como leyes o cifras financieras ficticias.',
+    },
+    {
+      termino: 'Auditoría post-hoc',
+      significado:
+        'Supervisión humana experta que actúa como el controlador de calidad final para verificar la consistencia lógica y la fidelidad de las respuestas de la IA.',
+    },
+    {
+      termino: 'Enterprise Data Protection (EDP)',
+      significado:
+        'Concepto de seguridad que garantiza que los datos procesados por la IA permanezcan dentro de la frontera de la empresa y no se usen para entrenar modelos públicos.',
+    },
+    {
+      termino: 'Groundedness (fundamentación)',
+      significado:
+        'Nivel básico de fiabilidad que define la capacidad del sistema para anclar sus respuestas en fuentes de información externas, autorizadas y verificables.',
+    },
+    {
+      termino: 'Hiperautomatización cognitiva',
+      significado:
+        'Evolución de la automatización rígida que utiliza IA para procesar datos no estructurados y tomar decisiones complejas basadas en el lenguaje.',
+    },
+    {
+      termino: 'Misgrounding',
+      significado:
+        'Error de fundamentación donde la IA cita una fuente real, pero afirma algo que el documento no dice o incluso contradice.',
+    },
+    {
+      termino: 'Procesamiento del lenguaje natural (PLN)',
+      significado:
+        'Disciplina de la IA que permite a las máquinas entender, interpretar y generar lenguaje humano, facilitando la creación de flujos mediante lenguaje natural.',
+    },
+    {
+      termino: 'Prompt',
+      significado:
+        'Instrucción o estímulo de texto proporcionado a un modelo de IA para guiar su respuesta hacia un objetivo específico.',
+    },
+    {
+      termino: 'RAG (Retrieval-Augmented Generation)',
+      significado:
+        'Enfoque que transforma a la IA de un oráculo creativo a un archivero experto que investiga en un corpus documental antes de generar una respuesta.',
+    },
+    {
+      termino: 'Triggers (desencadenadores)',
+      significado:
+        'Eventos específicos, como la recepción de un correo o una programación temporal, que inician una secuencia ordenada de operaciones en un flujo automatizado.',
+    },
+    {
+      termino: 'Ungrounding',
+      significado:
+        'Fallo técnico en el que el modelo realiza afirmaciones factuales sin proporcionar citas o basándose en información inexistente en el material suministrado.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'UBAderecho, IALAB. (2024). Evaluación del impacto de la inteligencia artificial generativa en el trabajo.',
       link: '',
+    },
+    {
+      referencia:
+        'academia-ia.com. (2024). Introducción a prompt engineering. El Club de la IA.',
+      link: 'https://academia-ia.com/wp-content/uploads/2024/03/PROMPT-ENGINEERING-LA-NOTA.pptx.pdf',
+    },
+    {
+      referencia: 'Ayuntamiento de Mérida. (2025). Microsoft Copilot. Gob.mx.',
+      link: 'https://merida.gob.mx/cad/content/documents/ebooks/microsoftCopilot.pdf',
+    },
+    {
+      referencia:
+        'Dantart, A. (2025). Inteligencia artificial jurídica y el desafío de la veracidad: análisis de alucinaciones, optimización de RAG y principios para una integración responsable. arXiv.',
+      link: 'https://arxiv.org/pdf/2509.09467',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación. (2025). Documento CONPES 4144: política nacional de inteligencia artificial.',
+      link: 'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4144.pdf',
+    },
+    {
+      referencia:
+        'Jara Rey, A. (2024). Legal prompts: guía práctica de instrucciones para uso de IA generativa. ISBN 978-987-03-4830-6.',
+      link: '',
+    },
+    {
+      referencia:
+        'Méndez Solano, A., Durán Campos, J., & Quirós Artiñano, D. (2024). Ingeniería de prompts. Zenodo.',
+      link: 'https://zenodo.org/records/14285388/files/Ingenier%C3%ADa%20de%20prompts.pdf?download=1',
+    },
+    {
+      referencia:
+        'Ministerio de Ciencia, Innovación y Universidades. (2019). Estrategia española de I+D+I en inteligencia artificial. Gobierno de España.',
+      link: 'https://www.ciencia.gob.es/dam/jcr:5af98ba2-166c-4e63-9380-4f3f68db198e/Estrategia_Inteligencia_Artificial_IDI.pdf',
+    },
+    {
+      referencia:
+        'Prompt Engineering Guide. (s.f.). Guía de ingeniería de prompt.',
+      link: 'https://www.promptingguide.ai/es',
+    },
+    {
+      referencia:
+        'República de Colombia. (2012). Ley Estatutaria 1581 de 2012.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
+    },
+    {
+      referencia:
+        'Varun, M., Faiz, S., Matthew, D., Mirac, S., & Christopher D, M. (2024). Hallucination-free? Assessing the reliability of leading AI legal research tools. arXiv.',
+      link: 'https://doi.org/10.48550/arXiv.2405.20362',
     },
   ],
   creditos: [
@@ -217,60 +318,107 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable ecosistema virtual de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
+          cargo: 'Responsable de Línea de Producción Huila',
           centro: 'Dirección General',
         },
       ],
     },
+
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Paola Andrea Tello Zambrano',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
+
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Juan José Calderon Gutiérrez',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Cristian Fernando Martínez Sánchez',
+          cargo: 'Desarrollador fullstack',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
+
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
