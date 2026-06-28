@@ -263,7 +263,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/componentes/audios/Podcast_Claves_para_auditar_la_IA_corporativa.m4a'
+import audio1 from '@/assets/curso/podcast/ia.mp3'
 export default {
   name: 'Tema4',
   data: () => ({
