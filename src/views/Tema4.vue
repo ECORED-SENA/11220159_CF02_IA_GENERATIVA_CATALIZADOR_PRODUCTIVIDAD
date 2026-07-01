@@ -256,23 +256,19 @@
                     img(src='@/assets/curso/temas/t2/img17.svg', alt='').m-auto
                 .col-xl
                   p.mb-0 Se invita al aprendiz a revisar el siguiente podcast, generado con apoyo de Inteligencia Artificial, el cual sintetiza los principales contenidos del componente formativo 2. Este recurso aborda buenas prácticas en IA, evaluación de calidad, validaciones técnicas, mitigación de errores y estrategias de aplicación avanzada más allá del uso convencional de asistentes conversacionales.
-            .col-xl-auto.col-md-9(data-aos="fade-left")
-              figure
-                img(src='@/assets/curso/temas/t4/img21.png', alt='').m-auto
-      .row.align-items-center.m-5.mb-5
-        .col-xl
-          .row.align-items-center.justify-content-center.caja-11(data-aos="zoom-in")
-            .col-auto.mb-4.mb-lg-0
-              figure(data-aos="fade-right")
-                img(src="@/assets/curso/temas/t4/img2.svg" style="max-width: 220px").m-auto
-            .col
-              h4.mb-4 Pódcast
-              TarjetaAudio.color-acento-contenido.mb-4(
-                  texto="Buenas prácticas en IA"
-                  :audio="audio2"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                .col-xl
+                  .row.align-items-center.justify-content-center.caja-11(data-aos="zoom-in")
+                    .col-auto.mb-4.mb-lg-0
+                      figure(data-aos="fade-right")
+                        img(src="@/assets/curso/temas/t4/img2.svg" style="max-width: 220px").m-auto
+                    .col
+                      h4.mb-4 Pódcast
+                      TarjetaAudio.color-acento-contenido.mb-4(
+                          texto="Buenas prácticas en IA"
+                          :audio="audio2"
+                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                        )
+                          .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
 </template>
 
