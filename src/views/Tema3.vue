@@ -73,7 +73,7 @@
       p.mb-5 A continuación, se presenta un recurso audiovisual relacionado con la ampliación de funcionalidades mediante complementos y herramientas de Inteligencia Artificial:
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://youtu.be/08iYa_wqsUM?si=j1tV4VMyk3L89fLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/08iYa_wqsUM?si=z_aR7ENpHgkQ-GsX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption #[b Video]. Complementos y la IA en PowerPoint
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img6.svg')
