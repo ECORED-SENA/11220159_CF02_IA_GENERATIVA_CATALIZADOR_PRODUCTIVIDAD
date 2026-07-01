@@ -259,15 +259,31 @@
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/t4/img21.png', alt='').m-auto
+      .row.align-items-center.m-5.mb-5
+        .col-xl
+          .row.align-items-center.justify-content-center.caja-11(data-aos="zoom-in")
+            .col-auto.mb-4.mb-lg-0
+              figure(data-aos="fade-right")
+                img(src="@/assets/curso/temas/t4/img2.svg" style="max-width: 220px").m-auto
+            .col
+              h4.mb-4 Pódcast
+              TarjetaAudio.color-acento-contenido.mb-4(
+                  texto="Buenas prácticas en IA"
+                  :audio="audio2"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
 </template>
 
 <script>
 import audio1 from '@/assets/curso/podcast/ia.mp3'
+import audio2 from '@/assets/curso/podcast/auditar.mp3'
 export default {
   name: 'Tema4',
   data: () => ({
     audio1,
+    audio2,
     mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
